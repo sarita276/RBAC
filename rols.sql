@@ -1,0 +1,5 @@
+GRANT ALL PRIVILEGES ON LibraryDB.* TO admin;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON LibraryDB.* TO editor;
+
+GRANT SELECT ON LibraryDB.* TO viewer;
